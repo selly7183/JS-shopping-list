@@ -1,4 +1,5 @@
 const items = document.querySelector(".items");
+const form = document.querySelector(".form");
 const input = document.querySelector(".footer_input");
 const addBtn = document.querySelector(".footer_button");
 
@@ -40,14 +41,9 @@ function createItem(text) {
 	return itemRow;
 }
 
-addBtn.addEventListener("click", () => {
+form.addEventListener("submit", (e) => {
+	e.preventDefault();
 	onAdd();
-});
-
-input.addEventListener("keypress", (e) => {
-	if (e.key === "Enter") {
-		onAdd();
-	}
 });
 
 items.addEventListener("click", (e) => {
