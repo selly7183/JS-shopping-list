@@ -1,5 +1,5 @@
-# JS-shopping-list
-https://selly7183.github.io/JS-shopping-list/
+# Shopping-list
+### Site : https://selly7183.github.io/JS-shopping-list/
 ![shopping](https://user-images.githubusercontent.com/88068412/210191081-c7352982-cc86-4f80-8375-b77d94f6a6ad.png)
 
 1. JavaScript를 이용한 Shopping List.
